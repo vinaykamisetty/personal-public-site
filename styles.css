@@ -1,0 +1,137 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  color: #40514e;
+}
+
+h1 {
+  margin: 50px auto 0;
+  color: #00337c;
+  line-height: 2;
+
+  font-family: "Sacramento", cursive;
+  font-size: 5.625rem;
+}
+p {
+  line-height: 2;
+}
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  color: #00337c;
+  font-weight: normal;
+  padding: 10px;
+}
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #e90064;
+}
+.top-container {
+  background-color: rgb(136, 193, 209);
+  position: relative;
+  padding-top: 100px;
+}
+.middle-container {
+  background-color: #f7f5eb;
+  padding: 100px;
+}
+
+.bottom-container {
+  background-color: rgb(136, 193, 209);
+
+  height: 60px;
+  padding: 60px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.icon {
+  height: 20px;
+  width: 20px;
+  margin-right: 30px;
+}
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+}
+.profile-pic {
+  width: 15%;
+}
+.cricket-img {
+  width: 15%;
+  float: left;
+  margin-right: 30px;
+}
+.chess-img {
+  width: 15%;
+  float: right;
+  margin-right: 30px;
+}
+hr {
+  border: dotted #060047 6px;
+  border-bottom: none;
+  width: 5%;
+  margin: 100px auto;
+}
+.foot {
+  width: 1120px;
+}
+.btn {
+  background: rgb(136, 193, 209);
+  background-image: -webkit-linear-gradient(top, rgb(136, 193, 209), #299ee6);
+  background-image: -moz-linear-gradient(top, rgb(136, 193, 209), #299ee6);
+  background-image: -ms-linear-gradient(top, rgb(136, 193, 209), #299ee6);
+  background-image: -o-linear-gradient(top, rgb(136, 193, 209), #299ee6);
+  background-image: linear-gradient(to bottom, rgb(136, 193, 209), #299ee6);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #db0f53;
+  background-image: -webkit-linear-gradient(top, #db0f53, #e82757);
+  background-image: -moz-linear-gradient(top, #db0f53, #e82757);
+  background-image: -ms-linear-gradient(top, #db0f53, #e82757);
+  background-image: -o-linear-gradient(top, #db0f53, #e82757);
+  background-image: linear-gradient(to bottom, #db0f53, #e82757);
+  text-decoration: none;
+}
+.intro {
+  width: 30%;
+  margin: auto;
+}
+.foot {
+  color: gold;
+}
+.foot:hover {
+  color: black;
+}
+.adjust {
+  margin: 30px auto 60px auto;
+}
+.birds {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 300px;
+  margin-left: 10px;
+}
+.mountain {
+  margin-left: 120px;
+}
